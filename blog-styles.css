@@ -1,0 +1,93 @@
+html, body {
+    background-color: #233443;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 150px auto 200px 10px;
+    grid-template-areas: 
+    "hd"
+    "main"
+    "sd"
+    "ft";
+}
+
+.box {
+   /* border: 1px solid #ff00ff; */
+}
+
+.header {
+    grid-area: hd;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.header > a {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 5em;
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+
+.main {
+    grid-area: main;
+    background-color: #ffffff;
+    margin: 20px;
+    padding:50px;
+}
+
+.main > h1 {
+    font-size: 5em;
+    color: #242345;
+}
+
+.main > button {
+    background-color: #ffffff;
+    font-size: 2em;
+    padding: 15px 32px;
+    border: 1px solid #233443;
+    font-weight: 100;
+    border-radius: 2px;
+
+}
+
+.main > p {
+    color: #000000;
+    text-align: justify;
+    font-size: 1.5em;
+    text-indent: 50px;
+
+
+}
+
+.sidebar {
+    grid-area: sd;
+    background-color: #5a5b67;
+
+
+}
+
+.sidebar > h1, h3, p {
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+.footer {
+    grid-area: ft;
+    font-size: 2em;
+    text-align: center;
+    color: #69718c;
+    
+
+}
