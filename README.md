@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sample-Project1
 
 Making this project taught me a lot of practical things as a beginner coder.
@@ -17,3 +18,8 @@ It may not be the best one yet, but it was my very first output as a beginner.
 This is so worth it.
 
 -Almira M. Anderson
+||||||| 6d628e4
+# Sample-Project1
+=======
+# Personal Blog Website
+>>>>>>> bd8c650777a87d69f5336ad7952f6ea1cd80699e
